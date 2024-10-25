@@ -1,10 +1,12 @@
 import React from 'react'
 import background1 from '../assests/background1.jpg'
 import background2 from '../assests/background2.jpg'
+import logo from '../assests/logo.png'
 import Navbar from '../components/Navbar'
 import { motion } from 'framer-motion';
 import '../additional.css'
 import StickyIcon from '../components/Sticky_icon';
+
 
 
 const Home = () => {
@@ -72,7 +74,7 @@ const Home = () => {
         damping:0
       }}
       >
-      <h1 className='font-bold text-transparent stroke-2 text-7xl stroke-text stroke-white '>TUNE GUITAR</h1>
+      <h1 className='font-bold text-transparent stroke-2 text-7xl stroke-text stroke-white'>TUNE GUITAR</h1>
       
       <h2 className='pt-2 font-mono text-3xl font-bold text-center text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>Unlock the Rhythm Within</h2>
       </motion.div>
@@ -84,17 +86,30 @@ const Home = () => {
 
       {/* Background Image 1*/}
       <div className='h-48 bg-slate-900'></div>
-      <div className='relative h-screen'>
-      <img 
-      src={background2}
-      alt='Background'
-      className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-95" />
 
-      <div>
-      <h1 className='pt-4 text-5xl font-bold'>Your Guitar's Best Friend!</h1>
-      <h2>Guitar Sales | Repairs | Accessories</h2>
-      </div>
+      <div className='relative h-screen bg-center bg-cover'>
+        <div className='absolute inset-0 bg-black opacity-90'></div>
+        <img 
+          src={background2}
+          alt='Background'
+          className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-95 blur-sm" />
+        <div>
+            <div className='relative items-center justify-center h-full pt-32 text-center'>
+              <h1 className='pt-4 font-bold text-7xl text-gray-50 '>Your Guitar's <span className='font-bold text-transparent stroke-2 text-7lx stroke-text '>Best Friend!</span></h1>
+              <br/>
+              <h2 className='pt-4 font-bold text-7xl text-gray-50'><span className='text-blue-800 stroke-text stroke-white'>Guitar Sales</span> | <span className='text-blue-800 stroke-text stroke-white'> Repairs </span> | <span className='text-blue-800 stroke-text stroke-white'>Accessories</span></h2>
 
+              <button className='p-3 mt-32 font-bold text-white transition duration-300 ease-in-out transform bg-blue-800 rounded hover:bg-blue-700 hover:scale-105 hover:shadow-lg duration-20'>Call now<i className="ml-3 fas fa-phone"></i></button>
+              <div className="flex justify-center mt-16">
+                <img
+                  src={logo}
+                  alt="Tune_Guitar_Logo"
+                  className="h-40"/>
+              </div>
+
+              
+            </div>
+        </div>
       </div>
     </div>
 

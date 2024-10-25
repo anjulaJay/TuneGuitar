@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import background1 from '../assests/background1.jpg'
 
-function Shop() {
+function Contact() {
   return (
     <div>
       {/* Background Image 1*/}
@@ -20,4 +20,4 @@ function Shop() {
   )
 }
 
-export default Shop
+export default Contact

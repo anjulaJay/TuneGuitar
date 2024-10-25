@@ -28,25 +28,25 @@ const Navbar = () => {
           </span>
           <span className="block w-full h-[2px] bg-blue-500 absolute bottom-0 left-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
         </a>
-        <a href="/" className="relative group">
+        <a href="/detailing" className="relative group">
           <span className="text-white transition-colors duration-300 group-hover:text-blue-500">
             DETAILING SERVICES
           </span>
           <span className="block w-full h-[2px] bg-blue-500 absolute bottom-0 left-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
         </a>
-        <a href="/" className="relative group">
+        <a href="/shop" className="relative group">
           <span className="text-white transition-colors duration-300 group-hover:text-blue-500">
             SHOP
           </span>
           <span className="block w-full h-[2px] bg-blue-500 absolute bottom-0 left-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
         </a>
-        <a href="/" className="relative group">
+        <a href="/previous" className="relative group">
           <span className="text-white transition-colors duration-300 group-hover:text-blue-500">
             PREVIOUS PROJECTS
           </span>
           <span className="block w-full h-[2px] bg-blue-500 absolute bottom-0 left-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
         </a>
-        <a href="/" className="relative group">
+        <a href="/contact" className="relative group">
           <span className="text-white transition-colors duration-300 group-hover:text-blue-500">
             CONTACT US
           </span>

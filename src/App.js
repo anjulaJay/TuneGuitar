@@ -1,12 +1,12 @@
-/* eslint-disable react/jsx-pascal-case */
+
 
 import Home from "./pages/Home"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import About_us from "./pages/About_us";
-import Detailing_service from "./pages/Detailing_service";
-import Previous_projects from "./pages/Previous_projects";
+import About from "./pages/About.js";
+import Detailing from "./pages/Detailing";
+import Previous from "./pages/Previous";
 import Shop from "./pages/Shop";
-import Contact_us from "./pages/Contact_us";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
@@ -14,11 +14,11 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/about" element={<About_us/>}></Route>
-        <Route path="/detailing_service" element={<Detailing_service/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="/detailing" element={<Detailing/>}></Route>
         <Route path="/shop" element={<Shop/>}></Route>
-        <Route path="/previous_projects" element={<Previous_projects/>}></Route>
-        <Route path="/contact_us" element={<Contact_us/>}></Route>
+        <Route path="/previous" element={<Previous/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
     </BrowserRouter>
     </div>
