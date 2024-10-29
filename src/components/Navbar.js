@@ -20,7 +20,7 @@ const Navbar = () => {
           <span className="text-white transition-colors duration-300 group-hover:text-blue-500">
             HOME
           </span>
-          <span className="block w-full h-[2px] bg-blue-500 absolute bottom-0 left-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+          <span className="block w-full h-[2px] bg-blue-500 absolute bottom-0 left-0 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 "></span>
         </a>
         <a href="/about" className="relative group">
           <span className="text-white transition-colors duration-300 group-hover:text-blue-500">

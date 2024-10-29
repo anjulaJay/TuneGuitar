@@ -76,7 +76,7 @@ const Home = () => {
       >
       <h1 className='font-bold text-transparent stroke-2 text-7xl stroke-text stroke-white'>TUNE GUITAR</h1>
       
-      <h2 className='pt-2 font-mono text-3xl font-bold text-center text-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>Unlock the Rhythm Within</h2>
+      <h2 className='pt-2 font-mono text-3xl font-bold text-center'>Unlock the Rhythm Within</h2>
       </motion.div>
       </div>
       <button className='bg-white rounded-full'>
@@ -105,12 +105,25 @@ const Home = () => {
                   src={logo}
                   alt="Tune_Guitar_Logo"
                   className="h-40"/>
-              </div>
-
-              
+              </div>   
             </div>
         </div>
       </div>
+
+      {/* Background Image 1*/}
+      <div className='h-48 bg-slate-900'></div>
+
+      <div className='relative h-screen bg-center bg-cover'>
+        <div className='absolute inset-0 bg-black opacity-90'></div>
+        <img 
+          src={background2}
+          alt='Background'
+          className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-95 blur-sm" />
+            
+          </div>
+
+
+
     </div>
 
     
